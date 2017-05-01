@@ -1,0 +1,26 @@
+{
+  "name": "@spyke/eslint-config-general",
+  "version": "1.0.0",
+  "description": "My personal ESLint configuration",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/the-spyke/eslint-config-general.git"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig"
+  ],
+  "author": "Anton Alexandrenok",
+  "license": "Unlicense",
+  "bugs": {
+    "url": "https://github.com/the-spyke/eslint-config-general/issues"
+  },
+  "homepage": "https://github.com/the-spyke/eslint-config-general#readme",
+  "peerDependencies": {
+    "eslint": "^3.19.0"
+  }
+}
