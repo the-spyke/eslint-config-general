@@ -4,7 +4,8 @@ module.exports = {
     ],
     "parserOptions": {
         "ecmaFeatures": {
-            "experimentalObjectRestSpread": true
+            "experimentalObjectRestSpread": true,
+            "modules": true
         },
         "ecmaVersion": 2017
     },
