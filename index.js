@@ -10,6 +10,7 @@ module.exports = {
         "ecmaVersion": 2017
     },
     "rules": {
+        "array-bracket-spacing": "error",
         "arrow-spacing": "error",
         "block-scoped-var": "error",
         "block-spacing": "error",
@@ -18,11 +19,17 @@ module.exports = {
             "1tbs",
             { "allowSingleLine": true }
         ],
+        "capitalized-comments": [
+            "error",
+            "always",
+            { "ignoreConsecutiveComments": true }
+        ],
         "comma-spacing": "error",
         "comma-style": "error",
         "consistent-this": ["error", "me"],
         "curly": "error",
         "eol-last": "error",
+        "func-call-spacing": "error",
         "generator-star-spacing": ["error", "after"],
         "indent": [
             "warn",
@@ -37,6 +44,7 @@ module.exports = {
         "keyword-spacing": "error",
         "linebreak-style": "error",
         "lines-around-directive": "error",
+        "new-parens": "error",
         "newline-before-return": "error",
         "no-caller": "error",
         "no-compare-neg-zero": "error",
@@ -53,17 +61,26 @@ module.exports = {
         "no-var": "warn",
         "no-whitespace-before-property": "error",
         "no-with": "error",
+        "object-curly-spacing": [
+            "error",
+            "always",
+            {
+                "arraysInObjects": true,
+                "objectsInObjects": true
+            }
+        ],
         "operator-linebreak": "error",
-        "prefer-template": "warn",
         "quotes": "error",
         "radix": "error",
         "require-await": "error",
         "semi": "error",
+        "semi-spacing": "error",
         "space-before-blocks": "error",
         "space-before-function-paren": ["error", "never"],
         "space-in-parens": "error",
         "space-infix-ops": "error",
         "space-unary-ops": "error",
+        "spaced-comment": "error",
         "strict": "error",
         "valid-jsdoc": "warn",
         "vars-on-top": "warn",
